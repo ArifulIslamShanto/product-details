@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/58a53e3593.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+    <nav class="navbar navbar-light bg-light ">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.png" alt="" width="80" height="60">
+          </a>
+          <form class="d-flex w-75 m-2">
+            <input class="form-control me-2 border border-warning" type="search" placeholder="Search" aria-label="Search">
+            <button type="button" class="btn btn-warning m-1"><i class="fas fa-search"></i></button> 
+            <button type="button" class="btn btn-warning m-1"><i class="fas fa-shopping-cart"></i></button> 
+          </form>
+        </div>
+      </nav>
+      <hr>
+    <div class="container shadow-sm p-3 mb-5 bg-body rounded">
+        <button class="btn text-warning mx-5 fs-2 " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop">Categories</button>
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasWithBackdrop" aria-labelledby="offcanvasWithBackdropLabel">
+
+    <div class="offcanvas-header bg-info">
+        <div class="container ">
+            <h4 class="text-white p-2 m-0">Navber</h4>
+          </div>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <div class="container-fluid p-1 m-1">
+            <a class="navbar-brand text-warning" href="#">Electronics & Gadgets</a>
+          </div>
+          <hr>
+        <div class="container-fluid p-1 m-1">
+            <a class="navbar-brand text-warning" href="#">Fashion & Lifestyle</a>
+          </div>
+          <hr>
+        <div class="container-fluid p-1 m-1">
+            <a class="navbar-brand text-warning" href="#">Home & living</a>
+          </div>
+          <hr>
+        <div class="container-fluid p-1 m-1">
+            <a class="navbar-brand text-warning" href="#">Health & Beauty</a>
+          </div>
+          <hr>
+        <div class="container-fluid p-1 m-1">
+            <a class="navbar-brand text-warning" href="#">Daily needs</a>
+          </div>
+          <hr>
+        <div class="container-fluid p-1 m-1">
+            <a class="navbar-brand text-warning" href="#">Sports & outdoor</a>
+          </div>
+          <hr>
+        <div class="container-fluid p-1 m-1 ">
+            <a class="navbar-brand text-warning" href="#">Book & Stationary</a>
+          </div>
+          <hr>
+        <div class="container-fluid p-1 m-1">
+            <a class="navbar-brand text-warning" href="#">Toys & games</a>
+          </div>
+          <hr>
+        <div class="container-fluid p-1 m-1">
+            <a class="navbar-brand text-warning" href="#">Traditional Goods</a>
+          </div>
+          <hr>
+        <div class="container-fluid p-1 m-1">
+            <a class="navbar-brand text-warning" href="#">Automobiles & Biking</a>
+          </div>
+          <hr>
+        <div class="container-fluid p-1 m-1 ">
+            <a class="navbar-brand text-warning" href="#">Food</a> 
+          </div>
+          <hr>
+    </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light float-end mx-5">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-warning fs-5 mx-3 " aria-current="page" href="#">CAMPAIGN</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-warning fs-5 mx-3" href="#">DISCOUNT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-warning fs-5 mx-3" href="#"><i class="fas fa-plus m-2"></i>SIGNUP</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-warning fs-5 mx-3" href="#"><i class="fas fa-user m-2"></i>LOGIN</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+</header>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <img class="img-fluid" src="images/iphone-12-pro-family-hero.jpg" alt="">
+            </div>
+            <div class="col-lg-5">
+                <h4>Iphone 12 pro Max</h4>
+                <h1>TK. 1,20,000</h1>
+                <hr>
+                <p class="fw-bold text-secondary">Overview</p>
+                <li class="text-secondary">Brand: Apple</li>
+                <li class="text-secondary">Product type: iphone 12</li>
+                <li class="text-secondary">Capacity: 128 GB</li>
+                <li class="text-secondary">Capacity: 128 GB</li>
+                <li class="text-secondary">Color: Black </li>
+              
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <button class="btn btn-dark btn-sm" id="minus-btn"><i class="fa fa-minus"></i></button>
+                    </div>
+                    <input type="number" id="qty_input" class="form-control form-control-sm" value="1" min="1">
+                    <div class="input-group-prepend">
+                        <button class="btn btn-dark btn-sm" id="plus-btn"><i class="fa fa-plus"></i></button>
+                    </div>
+                    <div class="col-sm-4"></div>
+                </div>
+                <button class="btn btn-warning text-white">BUY NOW</button>
+                <button class="btn btn-warning text-white">ADD TO CART</button>
+        </div>
+        <div class="col-lg-3">
+            <p class="text-secondary fw-bold">Delivery Options</p>
+            <p><i class="fas fa-map-marker-alt m-2"></i>Dhaka</p>
+            <p><i class="fas fa-people-carry m-1"></i>Home Delivery</p>
+           <small class="text-muted m-3">Only for Dhaka Metropolitan Area & Chittagong Metropolitan Area (Campaign products delivery time 10 Days)</small>
+           <p class="text-secondary fw-bold my-4">Return and Warrenty</p>
+        </div>
+    </div>
+    </div>
+    <hr>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 ">
+                <h4 class=" fw-bold">Product Details</h4>
+                <p class="text-secondary">6.1 – inch Super Retina XDR display <br>
+                    Splash, Water, and Dust Resistant (IP68) <br>
+                    Dual-camera System with 12MP Ultra Wide <br>
+                    and Wide cameras; Night mode, Portrait mode <br>
+                    and 4K video up to 60 fps <br>
+                    12MP TrueDepth front camera with Portrait <br>
+                    mode, 4K video, and slow-motion video <br>
+                    Face ID for secure authentication and Apple Pay <br>
+                    A 14 Bionic chip with Next-generation <br>
+                    Neural Engine</p>
+                   <p class="text-secondary">Finish – Blue</p>
+                   <p class="text-secondary"><b>Warrenty: </b>1 Year International Warranty ( Parts and Labor both).</p>
+                   <p class="text-secondary"><b>Warranty will not apply for the below reasons: <br></b>If the product damaged or broken by the customer. <br>If the product damaged by water or fire.</p>
+               
+            </div>
+          
+                <div class="col-lg-4">
+                  <div class="add d-flex justify-content-between align-items-center">
+                    <h3 class="text-warning">RELATED PRODUCTS</h3> 
+                    <a class="text-warning" href="">VIEW ALL<i class="fas fa-caret-right mx-2"></i></a>
+                  </div>
+                  <hr>
+                  <div class="container mb-4 ">
+                   <div class="add-product bg-white">
+                    <div class="card-group ">
+                      <div class="card border-0 m-2">
+                        <img  src="images/powebank.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body ">
+                          <h5 class="card-title my-4 text-secondary"> Baykron Bapb-Blk-200</h5>
+                          <p class="card-text my-4"><b>TK. 3765.00</b></p>
+                        </div>
+                        <div class=" mx-4 footer">
+                         <button class="btn btn-info rounded rounded-pill text-white mb-2">BUY NOW</button>
+                        </div>
+                      </div>
+                      <div class="card border-0 m-2">
+                        <img src="images/keyboard.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-secondary my-4">Vertux Vendetta</h5>
+                          <p class="card-text my-4"><b>TK. 4500.00</b></p>
+                        </div>
+                        <div class="footer mx-4">
+                          <button class="btn btn-info rounded rounded-pill text-white mb-2">BUY NOW</button>
+                        </div>
+                      </div>
+                    </div>
+                   </div>
+                  </div>
+                  <div class="add d-flex justify-content-between align-items-center">
+                    <h2 class="text-warning">POPULAR PRODUCTS</h2> 
+                    <a class="text-warning" href="">VIEW ALL<i class="fas fa-caret-right mx-2"></i></a>
+                  </div>
+                  <hr>
+                  <div class="container mb-4 ">
+                   <div class="add-product bg-white">
+                    <div class="card-group ">
+                      <div class="card border-0 m-2">
+                        <img  src="images/phn.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body ">
+                          <h5 class="card-title my-4 text-secondary"> 360 Degree Rotation Mobile</h5>
+                          <p class="card-text my-4"><b>TK. 253.00</b></p>
+                        </div>
+                        <div class=" mx-4 footer">
+                         <button class="btn btn-info rounded rounded-pill text-white mb-2">BUY NOW</button>
+                        </div>
+                      </div>
+                      <div class="card border-0 m-2">
+                        <img src="images/jeans.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-secondary my-4">Masculine Slim-fit</h5>
+                          <p class="card-text my-4"><b>TK. 1390.00</b></p>
+                        </div>
+                        <div class="footer mx-4">
+                          <button class="btn btn-info rounded rounded-pill text-white mb-2">BUY NOW</button>
+                        </div>
+                      </div>
+                    </div>
+                   </div>
+                  </div>
+                </div>
+        </div>
+    </div>
+
+    <footer class="p-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <h4 class="text-warning">CONTACT</h4>
+            <p class="text-white">Corporate Office: Praasad Trade Center (3rd Floor), 6 Kemal Ataturk Avenue, Banani C/A, Dhaka-1213 Registered Office: Rupsha Tower, Flat# 10/B , Plot# 7, Road# 17, Banani C/A, Dhaka-1213</p>
+            <small class="text-warning"><i class="fas fa-paper-plane mx-2"></i>support@aleshamart.com</small>
+            <p class="text-warning"><i class="fas fa-phone-alt mx-2"></i>16731</p>
+          </div>
+          <div class="col-lg-2">
+            <h4 class="text-warning">QUICK LINKS</h4>
+            <a class="links" href="">About Aleshamart</a>
+            <a class="links" href="">My Account</a>
+            <a class="links" href="">Aleshamart Merchant</a>
+            <a class="links" href="">Career</a>
+          </div>
+          <div class="col-lg-2">
+            <h4 class="text-warning">HELP</h4>
+            <a class="links" href="">Payments</a>
+            <a class="links" href="">Cancellation</a>
+            <a class="links" href="">About Premium Membership</a>
+            <a class="links" href="">About Alesha Bidding</a>
+            <a class="links" href="">Easy Ordering</a>
+            <a class="links" href="">Terms & Condition</a>
+            <a class="links" href="">Privacy Policy</a>
+            <a class="links" href="">Help Center</a>
+          </div>
+          <div class="col-lg-4">
+            <h4 class="text-warning">NEWSLETTER</h4>
+            <div class="input-group">
+              <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+                aria-describedby="search-addon" />
+              <button type="button" class="btn text-white" id="SUBSCRIBE">SUBSCRIBE</button>
+            </div>
+            <h4 class="text-warning my-3">JOIN US</h4>
+            <a class="icon" href=""><i class="fab fa-facebook-f"></i></a>
+            <a class="icon" href=""><i class="fab fa-instagram"></i></a>
+            <a class="icon" href=""><i class="fab fa-youtube"></i></a>
+            <a class="icon" href=""><i class="fab fa-twitter"></i></a>
+            <a class="icon" href=""><i class="fab fa-linkedin-in"></i></a>
+          </div>
+          
+        </div>
+        
+      </div>
+      <hr class="bg-white"> 
+      <p class="text-white text-center">&copy; Ariful Islam Shanto 2021</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
